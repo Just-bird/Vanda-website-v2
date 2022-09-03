@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.header__container {
+    display: flex;
+    width: 1440;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+    background-color: white;
+}
+.header__vanda {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 50px;
+    padding-top: 700px;
+   
+}
+.header__meny {
+    display: flex;
+}
+
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 50px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    transition: color .1s linear;
+}
